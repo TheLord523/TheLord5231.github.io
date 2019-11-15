@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
 <script>
     var bangbangbang = new Audio();
     bangbangbang.src="bangbangbanggd.mp4";
 </script>
   <meta charset="utf-8">
   <title> Big Bang Fanpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -24,7 +25,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </head>
-
 <body>
   <!-- <nav id="navbar">
     <a href="">Home</a> &nbsp;
@@ -33,25 +33,30 @@
     <a href="">Best Songs</a> &nbsp;
   </nav> -->
 
-  <nav class="navbar navbar-expand-sm  navbar-dark">
-    <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">
-      <img src="vip.jpg" alt="logo" style="width:3rem;">
-    </a>
-    
-    <!-- Links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Funny</a>
-
-      </li>
-    </ul>
+  <nav class="navbar navbar-default navbar-expand-md bg-dark navbar-dark" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+                <!-- Creates a drop-down menu, Toggles navigation, collapsable navigation menu with a drop-down -->
+        <button tag="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <!-- Brand/logo -->
+    <a class="navbar-brand" href="#"> <img src="actualviplogo.png" alt="logo" style="width: 5rem;"></a>
+      
+      <!-- Links -->
+      
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a class="About" href="#">About</a></li>
+          <li><a class="Funny" href="#">Funny</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <!-- <div id="hero">
@@ -62,21 +67,37 @@
     </div>
   </div>
    -->
-  <h1 id="test" class="red_heading">Ultimate Big Ban Fanpage</h1>
-  <h1 id="VIP"> "You don't have to try to be sexy. Nothing is ore attactive than your natural self, the way you are." - T.O.P. </h1>
+<h1 id="heading" class="red_heading">Ultimate Big Ban Fanpage</h1>
+<h1 id="VIP"> "You don't have to try to be sexy. Nothing is more attactive than your natural self, the way you are." - T.O.P. </h1>
 
-  <div class="button">
-      <a href="#" onmousedown="bangbangbang.play()" class="btn"> BANG! BANG! BANG! </a>  
+   <!-- This button plays bang bang bang when it is clicked on -->
+<div class="button">
+   <a href="#" onmousedown="bangbangbang.play()" class="btn"> BANG! BANG! BANG! </a>  
       <!-- <section class="audio">
                       <audio controls autoplay>
                         <source src="BigBangBang.mp3" type="audio/mpeg">
                       </audio>
       </section> -->
-  </div>
+</div>
   <!-- <p id="bangbangbang"> Press on the button to play Bang Bang Bang </p> -->
-  <img id="bigbang"
-    src="https://i.pinimg.com/originals/34/1b/1f/341b1fdcbd9de35505a15575145d2ad0.png">
+<img id="bigbang" src="https://i.pinimg.com/originals/34/1b/1f/341b1fdcbd9de35505a15575145d2ad0.png">
   <!-- <a href="https://www.google.com"> Haru haru </a> -->
+<div class="padding">
+<div class="container">
+  <div class="row">
+    <!-- Using two columns larger than 768 pixels and anything under, one column (Learned about this in 11/14/19 W3 Workshop) -->
+    <div class="col-sm-6" id="bigbang2">
+        <img src="Bigbangpadding.png">
+    </div>
+    <div class="col-sm-6 text-center">
+      <h2><b>The return of the kings?</b></h2>
+      <p>All of the members of Big Bang have returned from military services as of November 9, 2019. 
+        Seungri has been replaced by Jun Huang after the sex scandals and other accusations.</p>
+      <p>After the T.O.P.'s first enlistment in the military in February 9, 2017, the remaining members have now returned.</p>
+    </div>
+  </div>  
+</div> 
+</div>
 </body>
 
 </html>
