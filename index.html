@@ -1,21 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Big Bang Fanpage</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav id="navbar">
-      <a href="">Home</a> &nbsp;
-      <a href="">About Us</a> &nbsp;
-      <a href="">Contact</a> &nbsp;
-      <a href="">Best Songs</a> &nbsp;
-    </nav>
-    <h1 id="test" class= "red_heading"> Kings of Kpop</h1>
-    <h1 id="VIP"> VIP </h1>
-    <p id="bangbangbang"> Bang bang bang </p>
-    <img id="bigbang" src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Big_Bang_2016_%27MADE%27_Press_Conference.png">
-    <a href="https://www.google.com"> Haru haru </a>
+
+<head>
+<script>
+    var bangbangbang = new Audio();
+    bangbangbang.src="bangbangbanggd.mp4";
+</script>
+  <meta charset="utf-8">
+  <title> Big Bang Fanpage</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <!-- <nav id="navbar">
+    <a href="">Home</a> &nbsp;
+    <a href="">About Us</a> &nbsp;
+    <a href="">Contact</a> &nbsp;
+    <a href="">Best Songs</a> &nbsp;
+  </nav> -->
+
+  <nav class="navbar navbar-expand-sm  navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="vip.jpg" alt="logo" style="width:3rem;">
+    </a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Funny</a>
+
+      </li>
+    </ul>
+  </nav>
+
+  <!-- <div id="hero">
+    <div id="bg">
+    <div class="tint"></div>
+    <div id="main_content">
+      <h1>Lies</h1>
+    </div>
+  </div>
+   -->
+  <h1 id="test" class="red_heading">Ultimate Big Ban Fanpage</h1>
+  <h1 id="VIP"> "You don't have to try to be sexy. Nothing is ore attactive than your natural self, the way you are." - T.O.P. </h1>
+
+  <div class="button">
+      <a href="#" onmousedown="bangbangbang.play()" class="btn"> BANG! BANG! BANG! </a>  
+      <!-- <section class="audio">
+                      <audio controls autoplay>
+                        <source src="BigBangBang.mp3" type="audio/mpeg">
+                      </audio>
+      </section> -->
+  </div>
+  <!-- <p id="bangbangbang"> Press on the button to play Bang Bang Bang </p> -->
+  <img id="bigbang"
+    src="https://i.pinimg.com/originals/34/1b/1f/341b1fdcbd9de35505a15575145d2ad0.png">
+  <!-- <a href="https://www.google.com"> Haru haru </a> -->
 </body>
+
 </html>
