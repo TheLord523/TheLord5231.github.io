@@ -16,7 +16,7 @@ body{
 
 #VIP{
     font-size: 2rem;
-    color: dodgerblue;
+    color: rgb(57,204,204)
 }
 
 
@@ -25,7 +25,7 @@ body{
     position: absolute;
     top: 10rem;
     right: 1rem;
-    color: yellow;
+    color: rgb(254,220,0);
     border-radius: .5rem;
     border: .5rem dotted yellow;
 }
@@ -63,13 +63,17 @@ body{
     margin-left: 10rem;
     background-color: rgb(126, 126, 126) !important;
     font-size: 2rem !important;
-    color: black;
+    color: rgb(255,255,255) !important;
     text-decoration: none !important;
 }
 
+a:hover{
+    color: rgb(255,255,255);
+} 
+
 .navbar{
     background: rgb(37, 36, 36)  !important;
-    color: black !important;
+    color: rgb(255,255,255) !important;
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -79,7 +83,7 @@ body{
 
 .nav-item{
     font-size: 2rem;
-    color: black !important;
+    color: rgb(255,255,255) !important;
 }
 
 
@@ -87,14 +91,14 @@ body{
     color:red;
 }
 #heading{
-    color: yellow;
+    color: rgb(254,220,0);
     font-size: 50px;
     margin-top: 5rem;
 }
 
 .btn{
     border-radius: .5rem;
-    border: .2rem solid royalblue;
+    border: .2rem solid rgb(106,166,219);
     font-size: 3rem;
     color: black;
     padding: 1rem;
@@ -129,14 +133,29 @@ body{
 
 h2{
     color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p{
     font-size: 1.5rem;
-    font-family: 'Kulim Park', sans-serif;
-    color: white;
+    font-family: "StratumBold" ,Arial, sans-serif;
+    color: rgb(17,17,17);
 }
 
+.carousel-item img, .carousel-inner, .carousel{
+    width: 80vw;
+    height: 100vh;
+}
+
+
+/* .carousel-item{
+   
+} */
+
+/* .carousel-inner{
+    width: 70vw;
+    height: 100vh;
+} */
 /* html,body{
     width: 100%;
     height: 100%;
@@ -164,4 +183,4 @@ p{
     height:100vh;
     background: rgba(0,0,0,0.5)
         /* Makes background/background image darker */
-/* } */ */
+/* } */
