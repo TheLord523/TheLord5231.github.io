@@ -1,5 +1,10 @@
 body{
-    background-color: rgb(226,227,230);
+    background-image: url(https://scontent.fewr1-6.fna.fbcdn.net/v/t1.15752-9/79118956_476965186573943_3673709025481981952_n.png?_nc_cat=103&_nc_oc=AQklcWjMQ_PeT8nCTUa9IyItFFiwyP-YjGfpLGwxH17AoK6Hw_pxHSJcNtxtHosNNQQ&_nc_ht=scontent.fewr1-6.fna&oh=18bced2e5f763833acff304780c981bb&oe=5EB44551);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100%;
 }
 
 #navbar a{
@@ -89,18 +94,55 @@ a:hover{
     width: 50%;
 }
 
+.jun{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
 .gd{
     /* color:rgb(201,76,76); */
     color: rgb(211,3,0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3rem;
 }
 .top{
     color: rgb(233,197,254);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
 }
 
 .taeyang{
     color: rgb(216,210,199);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
 }
 
 .Daesung{
     color: rgb(184,186,172);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.card1-body{
+    font-family: 'Gelasio', serif;
+    font-size: 1.5em;
+}
+
+.card2-body{
+    font-family: 'Gupter', serif;
+    font-size: 1.5em;
+}
+
+.card3-body{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
+
+.card4-body{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+.card5-body{
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
 }
