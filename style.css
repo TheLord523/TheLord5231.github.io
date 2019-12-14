@@ -81,8 +81,8 @@ a:hover{
 .navbar{
     background: rgb(37, 36, 36)  !important;
     color: rgb(255,255,255) !important;
-    position: fixed;
-    overflow: hidden;
+    /* position: fixed;
+    overflow: hidden; */
     top: 0;
     width: 100%;
 }
@@ -100,7 +100,7 @@ a:hover{
 #heading{
     color: rgb(254,220,0);
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-family: 'Roboto', sans-serif;
 }
 
